@@ -60,7 +60,24 @@ header ul {
 }
 
 /* Main - cards */
+.main-products {
+    margin-top: 50px;
+}
+
 .main-products .section-cards {
     display: flex;
     justify-content: space-between;
+}
+
+.section-cards .card {
+    width: calc(100% / 3 - 8px);
+    margin-right: 8px;
+}
+
+.section-cards .card:last-child {
+    margin-right: 0;
+}
+
+.section-cards .card img {
+    max-width: 100%;
 }
