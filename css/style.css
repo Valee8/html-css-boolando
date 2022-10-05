@@ -56,8 +56,6 @@ header ul {
     margin-right: 0;
 }
 
-
-
 /* Logo */
 .logo {
     width: 120px;
@@ -111,6 +109,10 @@ header ul {
     font-size: 15px;
 }
 
+.card-image {
+    cursor: pointer;
+}
+
 .card-image .discount {
     background-color: #FF0000;
     padding: 4px 6px;
@@ -151,6 +153,17 @@ header ul {
 
 .section-cards:nth-child(2) {
     margin-top: 30px;
+}
+
+/* Card hover */
+.card-image .image-hover {
+    display: none;
+}
+.card-image:hover .image-hover {
+    display: inline-block;
+}
+.card-image:hover .image-not-hover {
+    display: none;
 }
 
 /* Footer */
