@@ -95,6 +95,7 @@ header ul {
 
 .section-cards .card-image {
     position: relative;
+    cursor: pointer;
 }
 
 .card .info-discount {
@@ -106,10 +107,6 @@ header ul {
 
 .card {
     font-size: 15px;
-}
-
-.card-image {
-    cursor: pointer;
 }
 
 .card-image .discount {
