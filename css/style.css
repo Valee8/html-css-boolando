@@ -8,19 +8,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* Header */
 header {
     background-color: #FF6900;
     height: 70px;
-}
-
-.container {
-    width: 70%;
-    margin: 0 auto;
+    box-shadow: 0 0 4px #000;
 }
 
 header a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 header .container, .links ul, .info-account ul {
@@ -38,17 +37,30 @@ header ul {
 }
 
 .links {
-    min-width: 15%;
+    min-width: 17%;
 }
 
 .links ul {
     justify-content: space-between;
 }
 
+/* Logo */
 .logo {
     width: 120px;
 }
 
 .logo img {
     max-width: 100%;
+}
+
+/* Container */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Main - cards */
+.main-products .section-cards {
+    display: flex;
+    justify-content: space-between;
 }
