@@ -168,6 +168,11 @@ header ul {
     display: none;
 }
 
+/* Bonus */
+.card-image .heart:hover {
+    color: #FF0000;
+}
+
 /* Footer */
 footer {
     margin-top: 50px;
