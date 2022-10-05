@@ -116,13 +116,14 @@ header ul {
 .card-image .discount {
     background-color: #FF0000;
     padding: 4px 6px;
+    margin-right: 4px;
+
 }
 
 .card-image .sustainability {
     background-color: #008000;
     font-weight: bold;
     padding: 4px 8px;
-    margin-left: 3px;
 }
 
 .info-product .name-product {
