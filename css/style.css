@@ -81,3 +81,47 @@ header ul {
 .section-cards .card img {
     max-width: 100%;
 }
+
+.section-cards .card-image {
+    position: relative;
+}
+
+.card .info-discount {
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.card {
+    font-size: 15px;
+}
+
+.card-image .discount {
+    background-color: #FF0000;
+    padding: 4px 6px;
+}
+
+.card-image .sustainability {
+    background-color: #008000;
+    font-weight: bold;
+    padding: 4px 8px;
+    margin-left: 3px;
+}
+
+.info-product .name-product {
+    font-weight: bold;
+}
+
+.info-product .price-product {
+    font-size: 14px;
+}
+
+.price-product .red-price {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.price-product .old-price {
+    text-decoration: line-through;
+}
