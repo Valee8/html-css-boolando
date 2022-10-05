@@ -26,8 +26,9 @@ header a {
     font-weight: bold;
 }
 
-header .container, .links ul, .info-account ul {
+header .container, .header-links ul, .info-account ul {
     display: flex;
+    justify-content: space-between;
 }
 
 .info-account ul li {
@@ -39,7 +40,6 @@ header .container, .links ul, .info-account ul {
 }
 
 header .container {
-    justify-content: space-between;
     align-items: center;
     height: 100%;
 }
@@ -48,13 +48,15 @@ header ul {
     list-style-type: none;
 }
 
-.links {
-    min-width: 17%;
+.header-links ul li {
+    margin-right: 8px;
 }
 
-.links ul {
-    justify-content: space-between;
+.header-links ul li:last-child {
+    margin-right: 0;
 }
+
+
 
 /* Logo */
 .logo {
