@@ -113,6 +113,15 @@ header ul {
     font-weight: bold;
 }
 
+.card-image .heart {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    font-size: 27px;
+    background-color: #fff;
+    padding: 6px 11px;
+}
+
 .info-product .price-product {
     font-size: 14px;
 }
@@ -124,4 +133,8 @@ header ul {
 
 .price-product .old-price {
     text-decoration: line-through;
+}
+
+.section-cards:nth-child(2) {
+    margin-top: 30px;
 }
