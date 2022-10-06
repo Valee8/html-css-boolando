@@ -81,8 +81,8 @@ header ul {
 }
 
 .section-cards .card {
-    width: calc(100% / 3 - 10px);
-    margin-right: 10px;
+    width: calc(100% / 3);
+    margin-right: 15px;
 }
 
 .section-cards .card:last-child {
